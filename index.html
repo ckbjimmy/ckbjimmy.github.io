@@ -58,25 +58,38 @@
 
 				<!-- edu/exp -->
 					<section id="two">
+					<div id="gallery">
 						<h2 align="right">education | experience</h2>
 							<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/edu01.png" class="image fit thumb"><img src="images/thumbs/edu01.jpg" alt="" /></a>
+								<a href="images/fulls/edu01.png" class="image fit thumb"><img src="images/thumbs/edu01.jpg" alt="" title="education" /></a>
 								<h3>education</h3>
 								<p>from Taiwan to the States</p>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/edu02.png" class="image fit thumb"><img src="images/thumbs/edu02.jpg" alt="" /></a>
+								<a href="images/fulls/edu02.png" class="image fit thumb"><img src="images/thumbs/edu02.jpg" alt="" title="clinical experience" /></a>
 								<h3>clinical experiences</h3>
 								<p>from bedside to laboratory</p>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/edu03.png" class="image fit thumb"><img src="images/thumbs/edu03.jpg" alt="" /></a>
+								<a href="images/fulls/edu03.png" class="image fit thumb"><img src="images/thumbs/edu03.jpg" alt="" title="research experience" /></a>
 								<h3>research experiences</h3>
 								<p>from basic to clinical, and data engineering</p>
 							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="http://tw.linkedin.com/pub/wei-hung-jimmy-weng/75/149/56a/en" class="image fit thumb" data-poptrox="ignore"><img src="images/thumbs/edu04.jpg" alt="" /></a>
+								<h3>online study</h3>
+								<p>Coursera accomplishment • please see linkedin</p>
+							</article>
 							</div>
+					</div>
 					</section>
+					
+					<script>var foo = $('#gallery');
+							foo.poptrox({
+								usePopupCaption: true
+							});
+					</script>
 
 				<!-- skills -->
 					<section id="one">
@@ -97,8 +110,8 @@
 					</section>
 
 				<!-- works -->
-					<div id="gallery">
-					<section id="two">
+					<section id="two">					
+					<div id="gallery2">
 						<h2 align="right">works</h2>
 							<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
@@ -117,15 +130,25 @@
 								<p>2010 - 2015</p>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="https://github.com/ckbjimmy" class="image fit thumb" data-poptrox="ignore"><img src="images/thumbs/pro04.png" alt="" /></a>
-								<h3>patho diagnosis</h3>
-								<p>text mining methods • data prediction by support vector machine</p>
+								<a href="https://github.com/ckbjimmy/pathoDx" class="image fit thumb" data-poptrox="ignore"><img src="images/thumbs/pro04.png" alt="" /></a>
+								<h3>pathoDx [under construction]</h3>
+								<p>text mining methods • data prediction by random forest / support vector machine / gradient boosting tree models</p>
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="https://ckbjimmy.shinyapps.io/devdataprod_project/" class="image fit thumb" data-poptrox="ignore"><img src="images/thumbs/pro05.jpg" alt="" /></a>
+								<h3><a href="http://ckbjimmy.github.io/couresra_dataSci09/" data-poptrox="ignore">HIV Facts Charts</a></h3>
+								<p>WHO database • googleVis • shinyapps • slidify</p>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="https://github.com/ckbjimmy/coursera_dataScience/blob/master/08_machineLearning/08.md" class="image fit thumb" data-poptrox="ignore"><img src="images/thumbs/pro06.jpg" alt="" /></a>
+								<h3><a href="https://github.com/ckbjimmy/coursera_dataScience" data-poptrox="ignore">other projects of stats and ML</a></h3>
+								<p>Coursera courses • R • statistical inference • regression • machine learning</p>
 							</article>
 							</div>
-					</section>
 					</div>
+					</section>
 
-					<script>var foo = $('#gallery');
+					<script>var foo = $('#gallery2');
 							foo.poptrox({
 								usePopupCaption: true
 							});
