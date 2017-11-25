@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url("http://fonts.googleapis.com/css?family=Alegreya+Sans:300,300italic,600,600italic");
 
 /*
 	Strata by HTML5 UP
@@ -28,7 +28,7 @@
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Alegreya Sans", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -440,6 +440,15 @@
 			text-transform: none !important;
 		}
 
+		.icon:after {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
 		.icon > .label {
 			display: none;
 		}
@@ -799,17 +808,18 @@
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		border: solid 0px #efefef;
+		color: #cccccc !important;
+		/*color: #787878 !important;*/
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		height: 3.15em;
-		height: calc(2.75em + 6px);
-		line-height: 2.75em;
-		min-width: 10em;
+		height: 0em;
+		height: calc(0em + 6px);
+		line-height: 0em;
+		min-width: 0em;
 		padding: 0 1.5em;
-		text-align: center;
+		text-align: right;
 		text-decoration: none;
 		white-space: nowrap;
 	}
@@ -940,7 +950,7 @@
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em 0 0;
+		padding: 4em 4em 0em 0em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -972,7 +982,7 @@
 	#footer {
 		bottom: 0;
 		left: 0;
-		padding: 0 4em 6em 0;
+		padding: 0 4em 2em 0;
 		position: fixed;
 		text-align: right;
 		width: 35%;
@@ -1244,3 +1254,34 @@
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
 	}
+
+
+
+/* additional from Bolei Zhou */
+	td.pub_td1
+	{
+		width:50px;
+	}
+    td.pub_td1 img
+    {
+        height:100px;
+        width: 100px;
+    }
+	td.pub_td2
+	{
+	}
+	div#container
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 850px;
+		text-align: left;
+		position: relative;
+		background-color: #FFF;
+	}
+    .papericon {
+        border-radius: 8px; 
+        -moz-box-shadow: 3px 3px 6px #888;
+        -webkit-box-shadow: 3px 3px 6px #888;
+        box-shadow: 3px 3px 6px #888;
+    }
