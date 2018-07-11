@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,600,600italic");
+/*@import url("http://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,600,600italic");*/
+@import url("http://fonts.googleapis.com/css?family=Crimson+Text:300,400,300italic,400italic|EB+Garamond:300,400,300italic,400italic|Roboto:300,300italic|Alegreya+Sans:400,400italic,600,600italic");
 
 /*
 	Strata by HTML5 UP
@@ -28,7 +29,7 @@
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: "Alegreya Sans", "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Roboto", "Crimson Text", "Alegreya Sans", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -58,6 +59,7 @@
 
 	em, i {
 		font-style: italic;
+		font-family: "Crimson Text";
 	}
 
 	p {
