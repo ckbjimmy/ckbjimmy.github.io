@@ -470,7 +470,7 @@
 			-o-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("../img/bg.jpg");
+			background: url("../img/bgb.jpg");
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -516,7 +516,7 @@
 			}
 
 			.image.thumb:hover:before {
-				background: url("../img/bg.jpg"), url("../img/bg.jpg");
+				background: url("../img/bgb.jpg"), url("../img/bgb.jpg");
 				opacity: 1.0;
 			}
 
@@ -811,11 +811,11 @@
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 0px #efefef;
-		color: #888888 !important;
+		color: #666666 !important;
 		/*color: #787878 !important;*/
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 400;
+		font-weight: 300;
 		height: 0em;
 		height: calc(0em + 6px);
 		line-height: 0em;
@@ -945,7 +945,7 @@
 	#header {
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("../img/bg.jpg");
+		background-image: url("../img/bgb.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
